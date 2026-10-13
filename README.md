@@ -37,6 +37,10 @@ curl -X POST http://127.0.0.1:5555/agent/prompt -d "foo"
 # → bar
 ```
 
+## Formatting
+
+Google Java Format enforced via Spotless, automatically applied during the build (`process-sources` phase).
+
 ## Testing Strategy (Service Module)
 
 We maintain two parallel test suites to compare their added value:
